@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <title>Geek Store </title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    GEEKSTORE
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Pedido</a></li>
+                        <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href=""><i class="fas fa-user"></i></a></li>
+                         
+                     
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content">
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Etiam at eros vel neque lobortis dictum. Vivamus luctus
+                      pulvinar est in luctus. Aliquam pellentesque pharetra odio
+                      , quis malesuada sem vulputate a. Morbi volutpat sed neque
+                       ut porttitor. Phasellus tincidunt mi at ullamcorper laoreet.
+                        Mauris pellentesque malesuada tristique. Sed commodo eu neque
+                         vel venenatis. Donec pretium lorem nisl, et pharetra eros
+                          consequat at. Donec sed varius nisl. Donec sed enim luctus,
+                           congue nunc at, finibus dolor. Quisque fermentum justo et
+                            ornare varius. 
+            </p>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Etiam at eros vel neque lobortis dictum. Vivamus luctus
+                      pulvinar est in luctus. Aliquam pellentesque pharetra odio
+                      , quis malesuada sem vulputate a. Morbi volutpat sed neque
+                       ut porttitor. Phasellus tincidunt mi at ullamcorper laoreet.
+                        Mauris pellentesque malesuada tristique. Sed commodo eu neque
+                         vel venenatis. Donec pretium lorem nisl, et pharetra eros
+                          consequat at. Donec sed varius nisl. Donec sed enim luctus,
+                           congue nunc at, finibus dolor. Quisque fermentum justo et
+                            ornare varius. 
+            </p>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Etiam at eros vel neque lobortis dictum. Vivamus luctus
+                      pulvinar est in luctus. Aliquam pellentesque pharetra odio
+                      , quis malesuada sem vulputate a. Morbi volutpat sed neque
+                       ut porttitor. Phasellus tincidunt mi at ullamcorper laoreet.
+                        Mauris pellentesque malesuada tristique. Sed commodo eu neque
+                         vel venenatis. Donec pretium lorem nisl, et pharetra eros
+                          consequat at. Donec sed varius nisl. Donec sed enim luctus,
+                           congue nunc at, finibus dolor. Quisque fermentum justo et
+                            ornare varius. 
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+               $('nav').addClass('black'); 
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+
+    </script>
+    
+</body>
+</html>
